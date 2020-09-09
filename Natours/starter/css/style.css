@@ -32,10 +32,40 @@ body {
   url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% 75vh,
-    0 100%
-    )
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  height: 35px;
+}
+
+.heading-primary {
+  color: white;
+  text-transform: uppercase;
+  position: fixed;
+  top:50vh;
+  left: 50vh;
+}
+
+.heading-primary-main {
+  color: white;
+  display: block;
+  font-size: 60px;
+  font-weight: 400px;
+  letter-spacing: 35px;
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700px;
+  letter-spacing: 17.4px;
 }
